@@ -1,34 +1,41 @@
 <template>
-  <div class="users container">
-    <h1 class="page-header"> User Management System</h1>
-    <table class="table table-striped">
-      <thead>
-      <tr>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-      </tr>
-      </thead>
+  <b-container class="mt-4">
+    <h1 class="page-header"> User Management System </h1>
+    <SearchBar/>
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>Name</b-col>
+        <b-col>Role</b-col>
+        <b-col></b-col>
+      </b-row>
+      <div class="w-100"></div>
+      <b-row v-for="item in userList" :key="item.id">
+        <div class="w-100"></div>
+        <UserListItem :item="item"/>
+      </b-row>
+    </b-container>
 
-      <tbody>
-      <tr v-for="user in users">
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
+  </b-container>
 </template>
 
 <script>
+import {mapActions, mapGetters} from "vuex";
+import UserListItem from "@/components/UserListItem";
+import SearchBar from "@/components/UtilsBar";
+
 export default {
-  name: "users",
-  data () {
-    return {
-      users: []
-    }
+  components: {
+    UserListItem,
+    SearchBar
+  },
+  computed: {
+    ...mapGetters({userList: "getUserList"})
+  },
+  methods: {
+    ...mapActions({setUserList: "setUserList"})
+  },
+  created() {
+    this.setUserList();
   }
 }
 </script>

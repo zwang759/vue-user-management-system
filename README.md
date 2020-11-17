@@ -2,23 +2,39 @@
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
+## Open source libraries used
+
+- [x] Vue.js
+- [x] BootstrapVue
+- [x] Vuex
+- [x] Moment.js
+- [x] JSON Server
+- [x] Concurrently
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### Folders
+1. ./src/components //Components
+2. ./src/vuex //vuex
+3. ./db.json //json server database
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Task progress
+- [x] Step 1
+- [x] Step 2
+- [x] Step 3
+- [x] Step 4 (call json-server fake restful apis using Axios)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Is it a good to connect to real backend APIs ?
+<p> No, better to create a few more components, for example, a spinner, to let users know it is processing, 
+and a alert, to let users know if their operations are successful or not </p>
+
+### Is it good for production ?
+<p> No, do not use it for production. For a SPA, there are more things to do.
+Consider doing search engine optimization </p>
+
