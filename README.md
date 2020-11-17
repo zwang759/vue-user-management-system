@@ -30,7 +30,7 @@ npm run dev
 - [x] Step 4 (call json-server fake restful apis using Axios)
 
 
-### Is it a good to connect to real backend APIs ?
+### Is it good to connect to a real backend server?
 <p> No, better to create a few more components, for example, a spinner, to let users know it is processing, 
 and a alert, to let users know if their operations are successful or not </p>
 
