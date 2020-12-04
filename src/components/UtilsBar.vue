@@ -95,7 +95,6 @@ export default {
       show: true,
       modalShow: false,
       sortCriteria: [NAME_ASC, NAME_DESC],
-      ...mapState(["userList", "filteredRole", "sortBy"])
     }
   },
   methods: {
@@ -132,7 +131,8 @@ export default {
     }
   },
   computed: {
-    ...mapGetters({roleList: "getRoleList"})
+    ...mapGetters({roleList: "getRoleList"}),
+    ...mapState(["filteredRole", "sortBy"])
   },
 }
 </script>

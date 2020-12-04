@@ -8,9 +8,17 @@ Vue.use(Vuex);
 function orderBy(state, userList) {
     switch (state.sortBy) {
         case NAME_ASC:
-            return userList.sort((a, b) => a.name > b.name ? 1 : -1);
+            return userList.sort((a, b) => {
+                const arrA = a.name.split(" ");
+                const arrB = b.name.split(" ");
+                return arrA[arrA.length - 1].localeCompare(arrB[arrB.length - 1]);
+            });
         case NAME_DESC:
-            return userList.sort((a, b) => a.name < b.name ? 1 : -1);
+            return userList.sort((a, b) => {
+                const arrA = a.name.split(" ");
+                const arrB = b.name.split(" ");
+                return arrB[arrB.length - 1].localeCompare(arrA[arrA.length - 1]);
+            });
         default:
             return userList;
     }
