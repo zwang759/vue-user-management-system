@@ -42,19 +42,6 @@
       "selectionCount": 2
     },
     {
-      "id": "10",
-      "name": "Zhiheng Wang",
-      "role": "Software Engineer",
-      "location": "Boston",
-      "hobbies": [
-        "Soccer",
-        "Video games"
-      ],
-      "lastSelectedTime": 1605582522364,
-      "firstSelectedTime": 1605582520582,
-      "selectionCount": 2
-    },
-    {
       "id": "12",
       "name": "Jay Chou",
       "role": "Singer",
@@ -62,9 +49,9 @@
       "hobbies": [
         "Music"
       ],
-      "lastSelectedTime": 1605582525061,
+      "lastSelectedTime": 1605586830397,
       "firstSelectedTime": 1605582523414,
-      "selectionCount": 2
+      "selectionCount": 6
     },
     {
       "id": "16",
@@ -78,122 +65,6 @@
       "lastSelectedTime": 1605582526771,
       "firstSelectedTime": 1605582525928,
       "selectionCount": 2
-    },
-    {
-      "id": "4141",
-      "name": "gag",
-      "role": "gaga",
-      "location": "gag",
-      "hobbies": [
-        "gaga"
-      ],
-      "lastSelectedTime": 1605582530141,
-      "firstSelectedTime": 1605582530141,
-      "selectionCount": 1
-    },
-    {
-      "id": "515151",
-      "name": "gaga",
-      "role": "gaga",
-      "location": "gaga",
-      "hobbies": [
-        "gaga",
-        "gagaga",
-        "aga"
-      ]
-    },
-    {
-      "id": "5151",
-      "name": "gaag",
-      "role": "gag",
-      "location": "gaga",
-      "hobbies": [
-        "gaga",
-        "gagaga",
-        "gagagagag"
-      ]
-    },
-    {
-      "id": "414141",
-      "name": "Zhiheng Wang",
-      "role": "gag",
-      "location": "gga",
-      "hobbies": [
-        "gag",
-        "gaga",
-        "gaga"
-      ]
-    },
-    {
-      "id": "41511",
-      "name": "AAAAA",
-      "role": "gaga",
-      "location": "gaga",
-      "hobbies": [
-        "gaga",
-        "gagag",
-        "agagaa"
-      ]
-    },
-    {
-      "id": "14141",
-      "name": "agagagaaaaa",
-      "role": "gaga",
-      "location": "gag",
-      "hobbies": [
-        "gagagga",
-        "ga",
-        "ga",
-        "gaga",
-        "gagagaga",
-        "ggg"
-      ]
-    },
-    {
-      "id": "4252",
-      "name": "gsjaja",
-      "role": "gaga",
-      "location": "gag",
-      "hobbies": [
-        "gagag",
-        "agagag",
-        "agaga"
-      ]
-    },
-    {
-      "id": "4141414",
-      "name": "Zhiheng Wang",
-      "role": "gaga",
-      "location": "fafa",
-      "hobbies": [
-        "fafaf",
-        "fafa",
-        "fafafaf"
-      ]
-    },
-    {
-      "id": "31414",
-      "name": "fg",
-      "role": "gha",
-      "location": "gag",
-      "hobbies": [
-        "gag",
-        "aga",
-        "gag",
-        "gaga"
-      ]
-    },
-    {
-      "id": "151515",
-      "name": "Test",
-      "role": "Test",
-      "location": "Shanghai",
-      "hobbies": [
-        "No"
-      ],
-      "lastSelectedTime": 1605583315503,
-      "firstSelectedTime": 1605583307213,
-      "selectionCount": 4
     }
   ]
 }

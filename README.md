@@ -24,10 +24,8 @@ npm run dev
 3. ./db.json //json server database
 
 ### Task progress
-- [x] Step 1
-- [x] Step 2
-- [x] Step 3
-- [x] Step 4 (call json-server fake restful apis using Axios)
+1. Support filtering users by role
+2. Support sorting users by name
 
 
 ### Is it good to connect to a real backend server?
